@@ -1,8 +1,11 @@
+
+
+
 output/*
 data/bin/*
 data/parq/*
 
-!**/ .gitkeep
+!.gitkeep
 
 __pycache__/
 *.pyc
