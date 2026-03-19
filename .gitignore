@@ -1,0 +1,4 @@
+output/*
+data/bin/*
+data/parq/*
+__pycache__
