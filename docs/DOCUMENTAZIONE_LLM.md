@@ -103,7 +103,7 @@ $$\text{RMSNorm}(x) = \frac{x}{\sqrt{\text{mean}(x^2) + \varepsilon}} \cdot \gam
 
 **File:** `architecture/grouped_query_attention.py`
 
-Implementa la **Grouped Query Attention**, un'ottimizzazione della Multi-Head Attention standard. Le proiezioni Query hanno `num_heads = 12` head, mentre le proiezioni Key e Value hanno solo `num_groups = 4` head (un gruppo ogni 3 head di query). Questo riduce significativamente la memoria occupata dalla KV-cache durante l'inferenza.
+Implementa la **Grouped Query Attention**, un'ottimizzazione della Multi-Head Attention standard. Le proiezioni Query hanno `num_heads = 12` head, mentre le proiezioni Key e Value hanno solo `num_groups = 4` head (un gruppo ogni 3 head di query).
 
 **Proiezioni lineari:**
 

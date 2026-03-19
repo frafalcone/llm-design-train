@@ -27,7 +27,7 @@ Modello linguistico decoder-only addestrato da zero su una singola GPU consumer 
 | Dropout | 0.1 |
 | Parametri stimati | ~85–90M |
 
-Scelte chiave rispetto a GPT-2 vanilla: **Grouped Query Attention** (3 teste per gruppo, riduzione 3× della KV-cache), **RMSNorm** pre-norm (training più stabile), nessun termine di bias nell'intera rete.
+Scelte chiave rispetto a GPT-2 vanilla: **Grouped Query Attention** (3 teste per gruppo), **RMSNorm** pre-norm (training più stabile), nessun termine di bias nell'intera rete.
 
 ---
 
@@ -178,7 +178,7 @@ A decoder-only language model trained from scratch on a single consumer GPU (AMD
 | Dropout | 0.1 |
 | Estimated parameters | ~85–90M |
 
-Key design choices over vanilla GPT-2: **Grouped Query Attention** (3 heads per group, 3× KV-cache reduction), **RMSNorm** pre-norm (more stable training), no bias terms throughout.
+Key design choices over vanilla GPT-2: **Grouped Query Attention** (3 heads per group), **RMSNorm** pre-norm (more stable training), no bias terms throughout.
 
 ---
 
