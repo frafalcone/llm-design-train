@@ -95,7 +95,7 @@ project/
 │   ├── model.pth                      # Modello finale (solo pesi)
 │   └── training_results.json          # Metriche finali
 │
-└── docs/                              # Documentazione
+└── docs/                              # Documentazione e Benchmark
 ```
 
 ### Requisiti
@@ -210,7 +210,7 @@ project/
 │   ├── model.pth                      # Final model (weights only)
 │   └── training_results.json          # Final metrics
 │
-└── docs/                              # Documentation
+└── docs/                              # Documentation and Benchmark
 ```
 
 ### Requirements

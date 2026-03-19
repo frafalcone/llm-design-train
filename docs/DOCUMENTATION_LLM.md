@@ -362,7 +362,7 @@ project/
 │   ├── model.pth                      # Final model (weights only)
 │   └── training_results.json          # Final metrics
 │
-└── docs/                              # Documentation
+└── docs/                              # Documentation and Benchmark
 ```
 
 ---
